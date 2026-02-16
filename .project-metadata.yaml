@@ -1,0 +1,22 @@
+# .project-metadata.yaml
+name: ASAP On-device DPO Finetuning
+description: On-device DPO + QLoRA fine-tuning pipeline to ground a SLM in oil-and-gas abbreviations.
+author: Minseok "Mason" Jung (Cloudera Inc.)
+specification_version: 1.0
+prototype_version: 1.0
+date: "2026-01-21"
+
+runtimes:
+  - editor: JupyterLab
+    kernel: Python 3.10
+    edition: NVIDIA GPU
+
+tasks:
+  - type: run_session
+    name: Install dependencies
+    script: 04_installer/install_requirements.py
+    short_summary: >-
+      Install dependencies, set environment variables, and upload data.
+    cpu: 2
+    memory: 8
+    gpu: 1

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Training outputs
+04_models/
+output_llama32_sft/
+merged_model/
+checkpoints/
+runs/
+*.bin
+*.safetensors
+
+# Logs
+*.log
+wandb/
+tensorboard/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+
+# Environment
+.env
+.env.local
+
+# Secrets
+00_configs/secrets.toml
