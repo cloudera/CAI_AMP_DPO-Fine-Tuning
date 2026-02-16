@@ -32,4 +32,4 @@ entries:
     git_ref: "main"
     is_prototype: true
     is_community: true
-    is_new: trues
+    is_new: true
