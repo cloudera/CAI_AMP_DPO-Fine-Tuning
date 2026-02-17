@@ -9,7 +9,7 @@ date: "2026-01-21"
 runtimes:
   - editor: JupyterLab
     kernel: Python 3.10
-    edition: NVIDIA GPU
+    edition: Nvidia GPU
 
 tasks:
   - type: run_session
