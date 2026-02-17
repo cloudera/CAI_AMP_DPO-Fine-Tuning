@@ -22,7 +22,7 @@ entries:
       do not configure, launch, or otherwise use this AMP. 
       By configuring, launching, or otherwise using the AMP, you acknowledge the foregoing statement and 
       agree that Cloudera is not responsible or liable in any way for the third-party software packages.
-    image_path: "https://github.com/user-attachments/assets/214f57d1-4637-4bd5-8e0b-032c1a1f7d7a"
+    image_path: "https://raw.githubusercontent.com/cloudera/CAI_AMP_DPO-Fine-Tuning/refs/heads/main/cover-art.png"
     tags:
       - Finetuning
       - Small Language Model
